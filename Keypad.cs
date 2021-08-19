@@ -32,7 +32,7 @@ namespace CodeBreaker
                 {
                     row_in_grid++;
                 }
-                if(current_index == 25 || column_in_grid > 2)
+                if(column_in_grid > 2)
                 {
                     column_in_grid = 0;
                 }
